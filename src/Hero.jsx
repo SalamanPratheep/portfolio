@@ -19,6 +19,7 @@ export default function Hero() {
           className="
             w-52
             h-52
+            object-cover
             rounded-full
             mx-auto
             border-4
