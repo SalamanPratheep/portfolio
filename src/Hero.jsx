@@ -14,7 +14,8 @@ export default function Hero() {
       <div className="text-center z-10 px-6">
 
         <motion.img
-          src={`${import.meta.env.BASE_URL}profile.png`}
+          // src={`${import.meta.env.BASE_URL}profile.png`}
+          src="https://salamanpratheep.github.io/portfolio/profile.png"
           alt="Salaman Pratheep"
           className="
             w-52
@@ -99,7 +100,8 @@ export default function Hero() {
           </a>
 
           <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            // href={`${import.meta.env.BASE_URL}resume.pdf`}
+            href="https://salamanpratheep.github.io/portfolio/resume.pdf"
             download
             className="
               px-8
