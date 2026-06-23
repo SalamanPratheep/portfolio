@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 
+
 export default function Hero() {
   return (
     // <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -14,7 +15,8 @@ export default function Hero() {
       <div className="text-center z-10 px-6">
 
         <motion.img
-          src="/profile.png"
+          // src="/profile.png"
+          src={profile}
           alt="Salaman Pratheep"
           className="
             w-52
@@ -98,7 +100,8 @@ export default function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+            // href="/resume.pdf"
+            href={resume}
             download
             className="
               px-8
