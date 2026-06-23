@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import profile from "../profile.png";
+import resume from "../resume.pdf";
 
 
 export default function Hero() {
