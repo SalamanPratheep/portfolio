@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
-import profile from "../profile.png";
-import resume from "../resume.pdf";
 
 
 export default function Hero() {
@@ -18,7 +16,7 @@ export default function Hero() {
 
         <motion.img
           // src="/profile.png"
-          src={profile}
+          src="/portfolio/profile.png"
           alt="Salaman Pratheep"
           className="
             w-52
@@ -103,7 +101,7 @@ export default function Hero() {
 
           <a
             // href="/resume.pdf"
-            href={resume}
+            href="/portfolio/resume.pdf"
             download
             className="
               px-8
